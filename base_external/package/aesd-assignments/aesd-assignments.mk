@@ -6,11 +6,11 @@
 ##############################################################
 
 #TODO: Fill up the contents below in order to reference your assignment 3 git contents
-AESD_ASSIGNMENTS_VERSION = 'b786529a1a76bfc89b556ccb707a31a44c7bd691'
+AESD_ASSIGNMENTS_VERSION = '837736d1303491cf204ebb48fd163b36f5057d20'
 # Note: Be sure to reference the *ssh* repository URL here (not https) to work properly
 # with ssh keys and the automated build/test system.
 # Your site should start with git@github.com:
-AESD_ASSIGNMENTS_SITE = 'git@github.com:KrishnenduMarathe/assignment3-aesd-krishnendumarathe.git'
+AESD_ASSIGNMENTS_SITE = 'git@github.com:KrishnenduMarathe/assignment3-and-later-aesd-krishnendumarathe.git'
 AESD_ASSIGNMENTS_SITE_METHOD = git
 AESD_ASSIGNMENTS_GIT_SUBMODULES = YES
 
