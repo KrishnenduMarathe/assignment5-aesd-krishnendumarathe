@@ -19,7 +19,7 @@ jobs:
           - name: Install Dependencies
             run: |
               apt update
-              apt install -y nodejs openssh-client sshpass
+              apt install -y nodejs openssh-client sshpass file
 
           - uses: webfactory/ssh-agent@v0.5.3
             with:
