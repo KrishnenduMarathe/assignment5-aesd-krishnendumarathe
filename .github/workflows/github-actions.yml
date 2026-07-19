@@ -16,14 +16,14 @@ jobs:
           - name: Checkout submodules
             run: git submodule update --init --recursive
 
-          - name: Install Nodejs
+          - name: Install Dependencies
             run: |
               apt update
-              apt install -y nodejs
+              apt install -y nodejs openssh-client sshpass
 
-          - uses: webfactory/ssh-agent@v0.5.4
+          - uses: webfactory/ssh-agent@v0.5.3
             with:
-                ssh-private-key: ${{ secrets.ASSIGNEMNT5_SECRET }}
+                ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
 
           - name: Run full test
             env:
